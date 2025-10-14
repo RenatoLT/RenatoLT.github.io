@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "Collar Luna",
+    "descripcion": "Collar de plata con luna y estrellas.",
+    "precio": 45000,
+    "foto": "../Imagenes/imagen_para_1.jpg"
+  },
+  {
+    "nombre": "Pulsera Estrella",
+    "descripcion": "Pulsera delicada con estrella dorada.",
+    "precio": 32000,
+    "foto": "../Imagenes/imagen_para_2.jpg"
+  }
+]
