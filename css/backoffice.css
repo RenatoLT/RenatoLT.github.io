@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor principal del panel */
+.admin-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contenedor del formulario */
+.form-container {
+    background-color: #fdfdfd;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Estilos para los campos de texto y área de texto */
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Contenedor para campos en la misma fila (Precio y Stock) */
+.form-row {
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+.form-row .form-group {
+    flex: 1; /* Cada grupo de formulario ocupa el mismo espacio */
+}
+
+/* Botón de guardar */
+.form-actions {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn-save {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-save:hover {
+    background-color: #218838;
+}
+
+/* Estilos de la tabla de productos */
+.product-list-container {
+    margin-top: 30px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.product-table th,
+.product-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-table thead {
+    background-color: #f2f2f2;
+}
+
+.product-table th {
+    font-weight: bold;
+}
+
+/* Botones de acciones en la tabla */
+.btn-edit, .btn-delete {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-edit {
+    background-color: #007bff;
+}
+
+.btn-edit:hover {
+    background-color: #0056b3;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
